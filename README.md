@@ -99,4 +99,4 @@ Context
 ---
 First developed for [X-Craft](https://www.x-craft.co.nz/), and made available to public with their approbation.
 
-![Logo X-Craft](https://www.x-craft.co.nz/uploads/5/2/7/1/52719073/published/121512.gif?1657758130)
+[![Logo X-Craft](https://www.x-craft.co.nz/uploads/5/2/7/1/52719073/published/121512.gif?1657758130)](https://www.x-craft.co.nz/)
