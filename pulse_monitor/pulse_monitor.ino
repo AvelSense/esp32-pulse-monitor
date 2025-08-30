@@ -1,6 +1,20 @@
+/**
+ * @file pulse_monitor.ino
+ * @description This file is executed server-side (ESP32) It is responsible for generating a Wi-Fi access point,
+ * serving the visualisation webpage and acquiring measurements.
+ *
+ * @author Matthieu Bouveron
+ * @copyright 2025 Matthieu Bouveron
+ * @license MIT
+ *
+ * This file is part of ESP32_Pulse_Monitor.
+ *
+ * ESP32_Pulse_Monitor is free software: you can redistribute it and/or modify
+ * it under the terms of the MIT License.
+ */
+
 #include <WiFi.h>
 #include <WebServer.h>
-#include <ESPmDNS.h>
 #include <LittleFS.h>
 #include <ArduinoJson.h>
 #include <freertos/queue.h>
@@ -62,11 +76,6 @@ void setup() {
 
 void loop() {
     server.handleClient();
-
-    // uint32_t timestamps[2];
-    // if (xQueueReceive(timestampQueue, &timestamps, portMAX_DELAY)) {
-    //     // Process the timestamps here if needed
-    // }
 }
 
 void handleRoot() {
