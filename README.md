@@ -1,13 +1,6 @@
 ESP32-based Wi-Fi pulse monitor
 ===
 
-TODO
----
-
-- Add installation steps to README
-- Add demo.gif
-- Have ChatGPT rewrite README
-
 This is an easy-to-use tool that makes it easy to troubleshoot problems with signals at a distance (*ie* PWM in a moving
 robot, ...), using any device equipped with a web browser.
 
